@@ -1,0 +1,22 @@
+{
+  "version": "2021-12.1",
+  "trained_on": "sessions with logged events, 2021-05-19 to 2021-11-30",
+  "tested_on": "December 2021, scored once after all choices were made on November",
+  "session_start": {
+    "model": "rank average of LightGBM, XGBoost and CatBoost",
+    "n_features": 83,
+    "test_roc_auc": 0.685,
+    "test_pr_auc": 0.065,
+    "top_10pct_lift": 2.8,
+    "top_30pct_share_of_conversions": 0.545
+  },
+  "early_session": {
+    "model": "LightGBM, session-start features plus the first 3 events",
+    "n_features": 90,
+    "test_roc_auc": 0.780,
+    "top_10pct_lift": 3.7,
+    "top_30pct_share_of_conversions": 0.705,
+    "priority_threshold": 0.016951498943299396,
+    "threshold_rule": "70th percentile of early-session scores on recent traffic (scores only, no labels needed)"
+  }
+}
