@@ -1,0 +1,5 @@
+question,A,B,n_A,n_B,CR_A_%,CR_B_%,diff_pp,CI95_pp,relative_%,p_value
+Organic vs paid traffic,organic,paid,468920,1263346,4.44,2.34,2.1,"[2.04, 2.17]",90.1,0.0e+00
+Mobile vs desktop,mobile,desktop,1368679,346891,2.8,3.32,-0.51,"[-0.58, -0.45]",-15.5,1.9e-58
+Moscow & SPb vs other cities,Moscow/SPb,other,1029330,702936,2.99,2.78,0.2,"[0.15, 0.25]",7.3,7.0e-15
+Social ads vs other paid,social ads,other paid,253547,1009799,1.55,2.53,-0.98,"[-1.03, -0.92]",-38.6,1.9e-186

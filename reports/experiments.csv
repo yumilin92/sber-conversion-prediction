@@ -1,0 +1,7 @@
+experiment,n_features,valid_auc,best_trees
+E0 raw session attributes,14,0.6482,160
+E1 + generalising traffic features,26,0.6431,202
+E2 + historical conversion rates,42,0.647,139
+E3 + visitor history,49,0.6559,135
+E4 + landing page,52,0.6583,140
+E5 E4 without raw campaign/ad IDs,48,0.6751,163
