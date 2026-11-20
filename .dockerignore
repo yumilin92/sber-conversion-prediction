@@ -1,0 +1,9 @@
+data/
+notebooks/
+reports/
+tests/
+scores/
+store/clients.sqlite
+*.pdf
+.git
+**/__pycache__

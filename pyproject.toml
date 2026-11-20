@@ -1,0 +1,16 @@
+[project]
+name = "sber-conversion-prediction"
+version = "2021.12.1"
+requires-python = ">=3.12"
+
+[tool.ruff]
+line-length = 115
+extend-exclude = ["notebooks"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B"]
+ignore = ["E731"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["ignore:The 'app' shortcut is now deprecated:DeprecationWarning"]
