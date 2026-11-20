@@ -2,7 +2,7 @@
 
 Which website visitors will leave a request for a car subscription? This project predicts it from Google Analytics data of SberAutoPodpiska (1.86M visits and 15.7M events, May to December 2021) and serves the predictions as a daily batch job and a real-time API.
 
-It started as a capstone project and was then taken to production level: features are built from raw visits, production features are tested against the training features, traffic drift is monitored, and the service runs in Docker with CI.
+The service is built for production: features come from raw visits, production features are tested against the training features, traffic drift is monitored, and everything runs in Docker with CI.
 
 ## Results
 
@@ -102,6 +102,6 @@ Notebooks are kept as `.py` files in percent format and converted with `python s
 
 ## Data
 
-The raw data (`ga_sessions.csv`, `ga_hits.csv`) was provided by Skillbox and SberAutoPodpiska and is not included. Campaign and source names in the data are already hashed.
+The raw data (`ga_sessions.csv`, `ga_hits.csv`) belongs to SberAutoPodpiska and is not included. Campaign and source names in the data are already hashed.
 
 Author: Yulia Vovk
